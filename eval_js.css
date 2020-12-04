@@ -1,0 +1,136 @@
+.titre {
+  font-size: 26px;
+  font-weight: 900;
+}
+
+.subTitle {
+  font-size: 12px;
+
+}
+
+.titreImage {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+}
+
+.inputStyle {
+  position: absolute;
+  z-index: 1;
+  bottom: 2%;
+  background-color: rgb(187, 179, 179, 0.5);
+  height: 12%;
+  width: 75%;
+  left: 20%;
+  border-radius: 5px;
+}
+
+.nav {
+  left: 90%;
+}
+
+.mobile {
+  display: none;
+}
+
+.textFooter {
+  font-weight: 900;
+}
+
+.inputPrix {
+  max-width: 200px;
+  background-color: #dedede;
+}
+
+.mobileX {
+  display: none;
+}
+
+@media screen and (max-width: 1187px) {
+  .textInput {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .textInput {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .textInput, svg  {
+    width: 100%;
+    font-size: 13px;
+  }
+
+  .nav-infos {
+    left: 1%;
+  }
+
+  .nav {
+    width: 20%;    
+    left: 85%;
+      }
+
+  .nav-button {
+    right: 3%;;
+  }
+
+  .inputStyle {
+    position: relative;
+    z-index: none;
+    bottom: 25%;
+    background-color: none;
+    height: 22%;
+    width: 80%;
+    left: 10%;
+    padding: 10px;
+    border-radius: none;
+    padding-top: 2px;
+  }
+
+  .buttonNav {
+    min-width: 100%;
+    padding-top: 2px;
+  
+
+  }
+
+}
+
+@media screen and (max-width: 375px) {
+  .imgTitre {
+    min-height: 400px;
+    min-width: 400px;
+  }
+
+  .inputStyle {
+   bottom: 56%;
+   width: 70%;
+   height: 50%;
+   left: 20%;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .nav {
+    width: 30%;    
+    left: 67%;
+  }
+
+  .nav-infos {
+    font-size: 12px;
+    position: relative;
+    right: 1%;
+  }
+
+  .mobileX {
+    z-index: 2;
+    position: relative;
+    color: white;
+  }
+
+}
